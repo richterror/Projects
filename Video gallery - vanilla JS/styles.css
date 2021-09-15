@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbarContainer {
+  background-color: rgba(252, 252, 252, 0.479);
+  color: rgba(0, 0, 0, 0.781);
+  border-bottom: 2px solid rgba(7, 7, 7, 0.76);
+  height: 10vh;
+}
+
+.dot {
+  font-size: 3rem;
+}
+
+h2 {
+  margin-left: 1rem;
+  font-family: "Krona One", sans-serif;
+}
+
+.container {
+  padding-top: 30%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  width: 20%;
+  padding: 0.1vh;
+}
+
+.column video {
+  height: auto;
+  width: 100%;
+}
+
+.column video:hover {
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.3s linear;
+}
+
+#playButton {
+  cursor: pointer;
+}
+
+#containerVideo {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+.playButtonContainer {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.playButton {
+  height: 9vh;
+  width: 9vh;
+  opacity: 0.8;
+}
+
+.footerContainer {
+  border-top: 2px solid black;
+  height: 10vh;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Tablet */
+
+@media screen and (min-width: 420px) {
+  .container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 2%;
+  }
+
+  .play video {
+    border-radius: 1vh;
+    cursor: pointer;
+  }
+
+  .column video {
+    border-radius: 1vh;
+    opacity: 0.8;
+  }
+
+  .playButton {
+    height: 10vh;
+    width: 10vh;
+  }
+
+  .footerContainer {
+    height: 2vh;
+  }
+}
+
+/* Laptop and Desktop */
+
+@media screen and (min-width: 1100px) {
+  .navbarContainer {
+    height: 7vh;
+  }
+
+  .container {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .play video {
+    border-radius: 1vh;
+    cursor: pointer;
+  }
+
+  .column video {
+    opacity: 0.8;
+    border-radius: 1vh;
+  }
+
+  .playButton {
+    height: 12vh;
+    width: 12vh;
+  }
+
+  .footerContainer {
+    display: none;
+  }
+}

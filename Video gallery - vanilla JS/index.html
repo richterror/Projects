@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>GALLERY</title>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');</style>
+</head>
+<body>
+
+<!-- Navbar-->
+
+<div class="navbarContainer">
+    <h2>GALLERY<span class="dot">.</span></h2>
+</div>
+
+<!-- The gallery container -->
+<div class="container">
+    
+<!-- The main video container -->
+<div id="containerVideo">
+    <div class="playButtonContainer"> 
+        <img src="/img/play.png" alt="" class="playButton" id="playButton" onclick="playPause(); playBtn();">
+    </div>
+    <video id="expandedVid" style="width:100%" autoplay muted onclick="this[this.paused ? 'play' : 'pause']()", onclick="playVid(this); playBtn();">
+        <source src="/img/Ink - 67358.mp4" class="videos" id="video1">   
+    </video>
+   
+</div>
+
+<!-- Thumbnail rows/columns -->
+<div class="row">
+    <div class="column">
+        <video src="/img/Daffodil - 34826.mp4" class="videos" onclick="playVid(this);"></video>
+      </div>
+    <div class="column">
+      <video src="/img/Meal - 72046.mp4" class="videos" onclick="playVid(this);"></video>
+    </div>
+    <div class="column">
+      <video src="/img/Tv - 31851.mp4" class="videos" onclick="playVid(this);"></video>
+    </div>
+    <div class="column">
+        <video src="/img/Rainbow - 54924.mp4" class="videos" onclick="playVid(this);"></video>
+      </div>
+      <div class="column">
+        <video src="/img/Countdown - 31098.mp4" class="videos"  onclick="playVid(this);"></video>
+      </div>
+  </div>
+</div>
+
+<!--Footer-->
+
+<div class="footerContainer">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
