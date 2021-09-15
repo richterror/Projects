@@ -1,6 +1,6 @@
 # Frontend work sample
 
-This is a video gallery with thumbnails made as an application for an internship at Wasabi Web '21.
+This is a video gallery with thumbnails.
 
 ## How the application works
 
