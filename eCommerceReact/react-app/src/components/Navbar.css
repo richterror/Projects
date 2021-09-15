@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+.containerLogo {
+  text-align: center;
+  margin: 1rem 0 1rem 0;
+}
+
+.nav-link {
+  color: rgb(177, 82, 5);
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(177, 82, 5);
+}
