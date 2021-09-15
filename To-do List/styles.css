@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.avatar {
+  height: 3rem;
+  border-radius: 1.5rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.nav-link {
+  color: #11b6b6bd;
+  font-size: 1.1rem;
+}
+
+.container-links {
+  list-style: none;
+}
+
+.links-list a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 2px;
+  font-size: 2rem;
+}
+
+.logo a {
+  text-decoration: none;
+  color: rgba(204, 172, 28, 0.836);
+}
+
+p,
+h1,
+info-link {
+  font-family: "Poppins", sans-serif;
+  color: #1f1f3a;
+}
+
+.background {
+  height: 15vh;
+  width: auto;
+  padding: 30px;
+  background-color: #f8f85e2a;
+  display: flex;
+  justify-content: center;
+}
+
+#todoForm {
+  height: auto;
+  width: auto;
+}
+
+.form-control,
+input-group {
+  font-size: 1.3rem;
+  width: 75vh;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  padding: 1rem;
+}
+
+.form-style {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.error {
+  font-family: "Poppins", sans-serif;
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+}
+
+.input-button {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+  background: #242458;
+  border: none;
+  padding: 1rem 1.2rem;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+
+.input-button:hover {
+  background: #2424587c;
+  cursor: pointer;
+}
+
+.container {
+  font-family: "Poppins", sans-serif;
+  background-color: #9494db83;
+  height: auto;
+  padding: 1rem 0;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  width: 90vh;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.4rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.card h3 {
+  padding: 1rem;
+  color: #1f1f3a;
+}
+
+.card-button {
+  background-color: #11b6b6bd;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+
+.card-button:hover {
+  background-color: #11b6b665;
+  cursor: pointer;
+}
