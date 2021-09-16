@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Urbanist:wght@200&display=swap");
+
+* {
+  font-family: "Urbanist", sans-serif;
+  color: white;
+}
+
+.container {
+  display: flex;
+  margin: 5rem;
+}
+
+.about {
+  margin-top: 3rem;
+  margin-left: 2rem;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+}
+
+.profile img {
+  width: 20rem;
+  height: auto;
+  margin: 4rem 0 0 3rem;
+}
